@@ -9,8 +9,11 @@ public class Prog20260211A
 		System.out.print("Please give your name: ");
 		String name = input.nextLine();
 		
-		System.out.print("Welcome to CMPG211, " + name);
-		System.out.printf("\nI hope you are well %-2s King", name);
+		System.out.println("Welcome to CMPG211, " + name);
+		System.out.println("I hope you are well " + name + " King");
+
+		// Close input to avoid leaks
+		input.close();
 		
 	}
 }
