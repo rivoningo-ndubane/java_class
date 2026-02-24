@@ -31,7 +31,7 @@ public class Account
 		balance = bal;
 	}
 	
-	// COMPULATION
+	// COMPUTATION
 	public String toString()
 	{
 		return "Account Number: " + getAccNumber() + "\nBalance: R" +
